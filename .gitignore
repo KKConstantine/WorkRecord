@@ -1,0 +1,13 @@
+.DS_Store
+.idea/*
+.idea
+.rap_static_file
+composer.lock
+*.log
+nginx.htaccess
+.htaccess
+app/dev.php
+.eslintrc
+.prettierrc
+.vscode
+runtime

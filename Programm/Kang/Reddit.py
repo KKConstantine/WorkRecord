@@ -15,7 +15,7 @@ CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
 
 # MongoDB setup
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb://20.163.114.179:27017/')
 db = client['reddit_collector']
 tasks_collection = db['tasks']
 posts_collection = db['posts']

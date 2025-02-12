@@ -143,4 +143,4 @@ def get_task_posts(task_id):
     return jsonify(posts)
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, port=5000)
+    socketio.run(app, debug=True, port=5022)
